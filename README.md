@@ -1,2 +1,3 @@
-# memory-game
- A simple game made in React.js, styled with Tailwind
+# Memory Game
+
+A simple memory game made in React.js, styled with Tailwind

@@ -1,0 +1,21 @@
+.gameSideBox{
+    inline-size: 40vw;
+    justify-content: flex-start;
+}
+
+.gameSideBox h1{
+    font-size: 4rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.gameSideBox p{
+    font-size: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.gameSideBox h1,
+.gameSideBox p{
+    font-family: 'Jersey 10', sans-serif;
+}

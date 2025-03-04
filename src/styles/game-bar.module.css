@@ -1,0 +1,41 @@
+@import 'font.css';
+
+.gameBar{
+    display: flex;
+    flex-direction: row;
+}
+
+.gameBar label,
+.gameBar button,
+.gameBar select{
+    font-family: 'mgs1', sans-serif;
+    font-size: calc(1rem + 1vw);
+    margin: 0.9rem 0.9rem 0.9rem 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem ;
+}
+
+.gameBar button,
+.gameBar select{
+    /* cant style the options :( */
+
+    background-color: rgb(209, 209, 209);
+    color: #000;
+    border: 3px solid;
+    
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+.gameBar button:active,
+.gameBar select:active{
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}

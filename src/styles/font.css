@@ -1,0 +1,14 @@
+/*|| Fonts */
+@font-face {
+    font-family: 'mgs1';
+    src: url(../fonts/METAG___.TTF);
+    font-size: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'mgs2';
+    src: url(../fonts/MGS2.ttf);
+    font-size: normal;
+    font-weight: normal;
+}
